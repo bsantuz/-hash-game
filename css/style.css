@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: black;
+  background-color: transparent;
+}
+
+body {
+  padding: 20px;
+}
+
+table {
+  width: 180px;
+  height: 180px;
+  border-spacing: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+table th {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #c0c0c0;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #c0c0c0;
+}
+
+#reset {
+  width: 180px;
+  padding: 0 46.5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+@media (max-width: 600px) {
+  #reset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    margin: 20px auto;
+    font-size: 3rem;
+    line-height: 6rem;
+  }
+  table {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+  button {
+    width: 100px;
+    height: 100px;
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
