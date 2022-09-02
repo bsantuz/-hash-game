@@ -23,7 +23,7 @@
 <p>a principal dificuldade foi desenvolver a inteligência do bot.</p>
 <p><a href="https://bsantuz.github.io/Tic-tac-toe/"> TESTAR </a></p>
 
-![jogo da velha](./tic-tat-toe.png)
+![jogo da velha]<./tic-tat-toe.png width="400">
 
 
 ### Como executar o projeto
